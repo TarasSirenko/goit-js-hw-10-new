@@ -1,0 +1,8 @@
+{{#each this}}
+    <div class="base-inf-country">
+        <img src="{{this.flags.svg}}" alt="country flag" width="40px">
+        <p class="country-name">{{this.name.common}}</p>
+    </div>
+    <p class="capital-country"><b>Capital:</b>  {{this.capital}}</p>
+    <p class="population-country "><b>Population:</b>  {{this.population}}</p>
+{{/each}}
